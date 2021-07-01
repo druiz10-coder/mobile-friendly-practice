@@ -70,3 +70,54 @@
     font-size: 24px;
     margin: 10vh 0;
 }
+/* Break points */
+@media screen and (min-width: 1024px) {
+    html {
+
+        border: 10px solid turquoise;
+    }
+
+    body {
+        background: pink;
+    
+    }
+}
+
+
+@media screen and (min-width: 576px) {
+    body {
+        background-color: yellow;
+        color: black;
+    
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: purple;
+        color: gold;
+    
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-color: orange;
+        color: blue;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: green;
+        color: yellow;
+    }
+}
+
+
+@media print {
+    body{
+        background: white;
+        color: black;
+    }
+}
